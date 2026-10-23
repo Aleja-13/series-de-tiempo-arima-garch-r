@@ -1,0 +1,1 @@
+Carpeta para los datos. Ver el README del repositorio para saber qué bases usa cada script.
