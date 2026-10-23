@@ -55,12 +55,12 @@ library(quantmod)
 
 #### Importar la base de datos
 
-datos <- read_excel("Datos históricos USD_PEN (3).xlsx")
+datos <- read.csv("datos/usd_pen_cierre.csv")
 View(datos)
 
 # SELECCIONAR LAS VARIABLES: Tipo de cambio al cierre
 
-TDC <- as.matrix(datos$Último)
+TDC <- as.matrix(datos$Ultimo)
 
 # ESTADISTICOS
 

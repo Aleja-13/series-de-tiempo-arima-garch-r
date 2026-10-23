@@ -42,13 +42,13 @@ library(stats)
 library(quantmod)
 
 #### Importar la base de datos
-datos <- read_excel("PIB%mensual.xls")
+datos <- read.csv("datos/pib_per_capita_mensual.csv", check.names = FALSE)
 View(datos)
 
 
 # SELECCIONAR LAS VARIABLES: Tipo de cambio al cierre
 
-PIB <- as.matrix(datos$`Crecimiento del PIB per cápita (% anual)`/100)
+PIB <- as.matrix(datos$`Crecimiento del PIB per capita (% anual)`/100)
 
 # ESTADISTICOS
 

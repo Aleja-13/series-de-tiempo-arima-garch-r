@@ -1,1 +1,3 @@
-Carpeta para los datos. Ver el README del repositorio para saber qué bases usa cada script.
+Datos de las series usadas en los scripts ARIMA.
+- pib_per_capita_mensual.csv y usd_pen_cierre.csv: tomadas de los libros de Excel de Salvador Adrian Haytara Llerena
+  (Universidad Catolica de Santa Maria, Arequipa, 2021). Datos originales del Banco Mundial. Se incluyen solo los datos, con credito a su autor.

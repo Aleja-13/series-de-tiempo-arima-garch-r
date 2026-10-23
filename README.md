@@ -24,7 +24,10 @@ Modelado y pronóstico de series económicas y financieras con la metodología B
 
 ## Datos
 
-Las bases de PIB mensual, tipo de cambio USD/PEN e inflación no están incluidas todavía. Los scripts de acciones (`NKE`, `PE`, `Modelos ARIMA_1`) descargan los precios por sí solos.
+- `datos/pib_per_capita_mensual.csv`: crecimiento del PIB per cápita (% anual), serie mensual 2005-2021. Fuente original: Indicadores del Desarrollo Mundial (Banco Mundial).
+- `datos/usd_pen_cierre.csv`: tipo de cambio USD/PEN (cierre). Fuente indicada en el archivo original: Banco Mundial.
+- Las dos series fueron tomadas de los libros de Excel de **Salvador Adrian Haytara Llerena** (Universidad Católica de Santa María, Arequipa, 2021), trabajo del curso de Econometría. Se incluyen solo los datos, con su reconocimiento. Los derechos de esa compilación son de su autor.
+- La base de inflación de 5 países no está incluida todavía. Los scripts de acciones (`NKE`, `PE`, `Modelos ARIMA_1`) descargan los precios por sí solos.
 
 ## Autoría
 
